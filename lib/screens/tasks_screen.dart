@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// separation of concern
 class TasksScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
