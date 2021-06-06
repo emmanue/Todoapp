@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// separation of concern
+// declarative user interface
 class TasksScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
