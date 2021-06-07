@@ -8,7 +8,7 @@ class TasksScreen extends StatelessWidget {
       backgroundColor: Colors.lightBlueAccent,
       body: Container(
         padding:
-            EdgeInsets.only(top: 60.0, left: 30.0, right: 30.0, bottom: 30.0),
+            EdgeInsets.only(top: 60.0, left: 30.0, right: 30.0, bottom: 30.0), // the edges
         child: Column(
           children: [
             Icon(Icons.list),
