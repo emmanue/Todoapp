@@ -12,7 +12,7 @@ class TasksScreen extends StatelessWidget {
         child: Column(
           children: [
             Icon(Icons.list),// Icon on the app bar
-            Text('Todoey'),
+            Text('Todoey'), // Appear on the app bar
           ],
         ),
       ),
