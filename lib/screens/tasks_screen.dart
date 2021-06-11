@@ -10,7 +10,7 @@ class TasksScreen extends StatelessWidget {
         padding:
             EdgeInsets.only(top: 60.0, left: 30.0, right: 30.0, bottom: 30.0), // the edges
         child: Column(
-          children: [
+          children: [ // widget
             Icon(Icons.list),// Icon on the app bar
             Text('Todoey'), // Appear on the app bar
           ],
