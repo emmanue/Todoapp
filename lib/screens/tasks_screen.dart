@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // declarative user interface
-class TasksScreen extends StatelessWidget {
+class TasksScreen extends StatelessWidget { // stateless
   @override
   Widget build(BuildContext context) {
     return Scaffold(
