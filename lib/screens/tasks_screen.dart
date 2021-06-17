@@ -52,7 +52,7 @@ class TasksScreen extends StatelessWidget {
               ],
             ),
           ),
-          Expanded(
+          Expanded( // List card of the app
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 20.0),
               decoration: BoxDecoration(
