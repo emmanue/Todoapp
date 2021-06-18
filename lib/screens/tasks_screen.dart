@@ -54,7 +54,7 @@ class TasksScreen extends StatelessWidget {
           ),
           Expanded( // List card of the app
             child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 20.0),
+              padding: EdgeInsets.symmetric(horizontal: 20.0), // border padding
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
