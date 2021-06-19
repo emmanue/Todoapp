@@ -52,7 +52,8 @@ class TasksScreen extends StatelessWidget {
               ],
             ),
           ),
-          Expanded( // List card of the app
+          Expanded(
+            // List card of the app
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 20.0), // border padding
               decoration: BoxDecoration(
@@ -62,25 +63,43 @@ class TasksScreen extends StatelessWidget {
                   topRight: Radius.circular(20.0),
                 ),
               ),
-              child: ListView(
-                children: [
-                  ListTile(
-                    title: Text('This is a task.'),
-                    trailing: Checkbox(
-                      value: false,
-                    ),
-                  ),
-                  ListTile(
-                    title: Text('This is a task.'),
-                    trailing: Checkbox(
-                      value: false,
-                    ),
-                  )
-                ],
-              ),
+              child: TasksList(),
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class TasksList extends StatelessWidget {
+  const TasksList({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: [
+        TaskTile(),
+        ListTile(
+          title: Text('This is a task.'),
+          trailing: Checkbox(
+            value: false,
+          ),
+        )
+      ],
+    );
+  }
+}
+
+class TaskTile extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      title: Text('This is a task.'),
+      trailing: Checkbox(
+        value: false,
       ),
     );
   }
