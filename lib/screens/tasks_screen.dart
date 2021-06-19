@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:todoey_flutter/widgets/tasks_list.dart';
 
 // declarative user interface
 class TasksScreen extends StatelessWidget {
@@ -11,6 +12,7 @@ class TasksScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.lightBlueAccent,
         child: Icon(Icons.add),
+        onPressed: () {},
       ), //colour of the background and app bar
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -67,39 +69,6 @@ class TasksScreen extends StatelessWidget {
             ),
           ),
         ],
-      ),
-    );
-  }
-}
-
-class TasksList extends StatelessWidget {
-  const TasksList({
-    Key key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return ListView(
-      children: [
-        TaskTile(),
-        ListTile(
-          title: Text('This is a task.'),
-          trailing: Checkbox(
-            value: false,
-          ),
-        )
-      ],
-    );
-  }
-}
-
-class TaskTile extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return ListTile(
-      title: Text('This is a task.'),
-      trailing: Checkbox(
-        value: false,
       ),
     );
   }
