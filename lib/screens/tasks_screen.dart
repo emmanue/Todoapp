@@ -4,6 +4,14 @@ import 'package:todoey_flutter/widgets/tasks_list.dart';
 
 // declarative user interface
 class TasksScreen extends StatelessWidget {
+  Widget buildBottomSheet(BuildContext context) {
+    return Container(
+      child: Center(
+        child: Text('this is a bottom sheet'),
+      ),
+    );
+  }
+
   // stateless
   @override
   Widget build(BuildContext context) {
@@ -12,7 +20,9 @@ class TasksScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.lightBlueAccent,
         child: Icon(Icons.add),
-        onPressed: () {},
+        onPressed: () {
+          showModalBottomSheet(context: context, builder: buildBottomSheet);
+        },
       ), //colour of the background and app bar
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
