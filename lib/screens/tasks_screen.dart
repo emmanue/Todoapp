@@ -15,7 +15,15 @@ class TasksScreen extends StatelessWidget {
         child: Icon(Icons.add),
         onPressed: () {
           showModalBottomSheet(
-              context: context, builder: (context) => AddTaskScreen());
+            context: context,
+            // Puts modal above keyboard
+            isScrollControlled: true,// makes modal full height
+            builder: (context) => SingleChildScrollView(
+              child: Container(
+                padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+                child: AddTaskScreen(),
+            ),
+          );
         },
       ), //colour of the background and app bar
       body: Column(
