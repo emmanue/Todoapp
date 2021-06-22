@@ -23,7 +23,7 @@ class TasksScreen extends StatelessWidget {
                 padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
                 child: AddTaskScreen(),
             ),
-          );
+            ),);
         },
       ), //colour of the background and app bar
       body: Column(
