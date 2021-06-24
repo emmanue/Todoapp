@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+/ Increase readability
 class TaskTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
