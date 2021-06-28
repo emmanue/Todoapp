@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:todoey_flutter/widgets/task_tile.dart';
 
-//Readability
+//Readability of the source code
 //seaparation of concern
 class TasksList extends StatelessWidget {
   @override
