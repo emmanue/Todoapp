@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
+// Well documented
 class AddTaskScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
