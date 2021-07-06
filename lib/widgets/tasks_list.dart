@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:todoey_flutter/widgets/task_tile.dart';
 
 //Readability of the source code best practice
-//seaparation of concern
-class TasksList extends StatelessWidget {
+//separation of concern
+class TasksList extends StatefulWidget {
+  @override
+  _TasksListState createState() => _TasksListState();
+}
+
+class _TasksListState extends State<TasksList> {
   @override
   Widget build(BuildContext context) {
     return ListView(
