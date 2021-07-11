@@ -32,6 +32,7 @@ class _TaskTileState extends State<TaskTile> {
 
 // Passed the value to final through a constructor callback
 // Constructor is a valid way to proceed
+// well structured
 class TaskCheckbox extends StatelessWidget {
   final bool checkboxState;
   final Function toggleCheckboxState;
