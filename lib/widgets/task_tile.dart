@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // Increase readability good practice
-//Stateful class for interactions
+//Stateful class for interactions when initiated
 class TaskTile extends StatefulWidget {
   @override
   _TaskTileState createState() => _TaskTileState();
