@@ -8,7 +8,7 @@ class TasksList extends StatefulWidget {
   _TasksListState createState() => _TasksListState();
 }
 
-// Tasklist returning listview
+// Tasklist returning listview as a stateful
 // Clearly stated and well stated
 class _TasksListState extends State<TasksList> {
   @override
