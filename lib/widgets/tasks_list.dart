@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:todoey_flutter/widgets/task_tile.dart';
 
 //Readability of the source code best practice
-//separation of concern
+//separation of concern well implemented
 class TasksList extends StatefulWidget {
   @override
   _TasksListState createState() => _TasksListState();
