@@ -38,7 +38,7 @@ class AddTaskScreen extends StatelessWidget {
               color: Colors.lightBlueAccent,
             ),//  good logic of code and well designed
           ],// Best practice for separation of concern
-        ),
+        ),//well elaborated code
       ),
     );
   }
