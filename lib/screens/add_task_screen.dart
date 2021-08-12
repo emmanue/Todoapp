@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-
+// Following good design patterns
 // Well documented and organized with imports from cupertino and material design
 class AddTaskScreen extends StatelessWidget {
   @override
