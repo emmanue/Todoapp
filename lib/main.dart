@@ -4,7 +4,8 @@ import 'package:todoey_flutter/screens/tasks_screen.dart';
 void main() {
   runApp(MyApp());
 }
-// Readability following bestpractices
+// Separation of concern well done
+// Readability following best practices
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
