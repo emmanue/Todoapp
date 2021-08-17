@@ -4,6 +4,7 @@ import 'package:todoey_flutter/screens/tasks_screen.dart';
 void main() {
   runApp(MyApp());
 }
+// Well structure good following good design
 // Separation of concern well done
 // Readability following best practices
 class MyApp extends StatelessWidget {
