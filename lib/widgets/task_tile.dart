@@ -30,7 +30,7 @@ class _TaskTileState extends State<TaskTile> {
     );
   }
 }
-
+// Following the solid principles of programming
 // Passed the value to final through a constructor callback
 // Constructor is a valid way to proceed with your logic 
 // well structured and developed
