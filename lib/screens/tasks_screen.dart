@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:todoey_flutter/widgets/tasks_list.dart';
 import 'package:todoey_flutter/screens/add_task_screen.dart';
 
+
+// well designed and structured code
 // declarative user interface
 class TasksScreen extends StatelessWidget {
   // stateless
