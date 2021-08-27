@@ -4,6 +4,7 @@ import 'package:todoey_flutter/widgets/tasks_list.dart';
 import 'package:todoey_flutter/screens/add_task_screen.dart';
 
 
+// Organizing the code following best practices
 // well designed and structured code
 // declarative user interface
 class TasksScreen extends StatelessWidget {
