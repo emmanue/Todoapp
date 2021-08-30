@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
+// Well documented code
 // Understanding each step of development
 // Making our code readability improved
 // Following good design patterns
